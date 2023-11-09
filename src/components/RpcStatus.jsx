@@ -43,6 +43,10 @@ function RpcStatus(props) {
 
       <div >
         <Header1 />
+        <div class="heading">
+                        <h4>Namada Validator Stats</h4>
+                    </div>
+
         <h4 className='header1'> *** WIP *** Block signing and proposal details from block 119000 to 119500</h4>
         <table id='validators'>
 

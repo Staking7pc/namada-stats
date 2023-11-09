@@ -21,7 +21,11 @@
     background-color: #0da724; /* Green background color */
     color: white;
 }
-
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
 
   #validators {
     border-collapse: collapse;
