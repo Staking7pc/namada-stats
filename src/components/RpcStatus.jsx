@@ -27,7 +27,7 @@ function RpcStatus(props) {
 
 
   useEffect(() => {
-    axios.get('http://namada.brightlystake.com/api/namada/validator/stats')
+    axios.get('https://namada.brightlystake.com/api/namada/validator/stats')
       .then(res => {
         setRpcDetails(res.data.data);
         console.log(res.data)
